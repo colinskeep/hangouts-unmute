@@ -1,0 +1,18 @@
+{
+   "content_scripts": [ {
+      "js": [ "jquery.js", "myscript.js" ],
+      "matches": [ "https://hangouts.google.com/hangouts/*" ],
+      "run_at": "document_start"
+   } ],
+   "description": "This extension allows you to auto unmute yourself on google hangouts.",
+   "icons": {
+      "16": "icon.png",
+      "19": "icon.png",
+      "38": "icon.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApBtq6hapRzKWr/NrOx02sGdsXy92GyiVMixcUmlBAaA4yHjYQKrnHNBMPZJfZGIugdLHzHrlTG+7dpmQX5laiGprDERtWDApclIoZoOJo9h/mLuAUw/BuRrxXUT0j5cp0jx2eej+pT4qFvKaOVyCNEPOJ4y77eZcGMDZ4UNBWxCly26uo1etZYQMrrGkfaIZRJtGpol0ElEAaiWXanVA5knO/FK9IG0N2JSt7rN7Wy1ieaxPrJqGpQLP+sSKlirHbhQD3cGUcgyo9YrXCk65z1mwRnr06ZwGwTcS1PvYQoHWxtCXJIlkZoO7RLCtUDCdb+EWyo1KL+btBvJw0L6C5wIDAQAB",
+   "manifest_version": 2,
+   "name": "HangoutSnitch AntiMute",
+   "version": "1.0",
+   "permissions": ["activeTab", "declarativeContent", "storage"]
+}
